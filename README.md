@@ -125,7 +125,7 @@ Exploring Pre-trained Text-to-Video Diffusion Models for Referring Video Object 
 ### A2D-Sentences & JHMDB-Sentences
 
 | Dataset | Overall IoU | Mean IoU | mAP  |
-| :----: | :----: | :----: | :----: | |
+| :----: | :----: | :----: | :----: | 
 | A2D-Sentences | 81.5 | 73.2 | 61.4 |
 | JHMDB-Sentences | 74.4  | 73.4 | 46.5  |
 
