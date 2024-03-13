@@ -147,7 +147,7 @@ We also support evaluate on RefCOCO/+/g validation set by using the pretrained w
 
 
 RIS (referring image segmentation):
-<p align="center"><img src="docs/refcoco.PNG" width="250"/></p>
+<p align="center"><img src="docs/refcoco.PNG" width="450"/></p>
 
 [//]: # (| RefCOCO | RefCOCO+ | RefCOCOg |)
 
