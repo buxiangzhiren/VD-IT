@@ -116,19 +116,29 @@ Exploring Pre-trained Text-to-Video Diffusion Models for Referring Video Object 
 
 
 ### Ref-Youtube-VOS & Ref-DAVIS17
+<p align="center"><img src="docs/Youtube-Davis.PNG" width="800"/></p>
 
-|   Dataset    | J&F | J | F |
-|:------------:| :----: | :----: | :----: |
-|  Ref-Youtube-VOS   | 64.8  | 63.1  | 66.6 | 
-|  Ref-DAVIS17   | 63.0  | 59.9  | 66.1 | 
+* denotes that we run the [official codes](https://github.com/bo-miao/SgMg) to get the results.
+
+[//]: # (|   Dataset    | J&F | J | F |)
+
+[//]: # (|:------------:| :----: | :----: | :----: |)
+
+[//]: # (|  Ref-Youtube-VOS   | 64.8  | 63.1  | 66.6 | )
+
+[//]: # (|  Ref-DAVIS17   | 63.0  | 59.9  | 66.1 | )
 
 
 ### A2D-Sentences & JHMDB-Sentences
+<p align="center"><img src="docs/A2D-JHMDB.PNG" width="800"/></p>
 
-| Dataset | Overall IoU | Mean IoU | mAP  |
-| :----: | :----: | :----: | :----: | 
-| A2D-Sentences | 81.5 | 73.2 | 61.4 |
-| JHMDB-Sentences | 74.4  | 73.4 | 46.5  |
+[//]: # (| Dataset | Overall IoU | Mean IoU | mAP  |)
+
+[//]: # (| :----: | :----: | :----: | :----: | )
+
+[//]: # (| A2D-Sentences | 81.5 | 73.2 | 61.4 |)
+
+[//]: # (| JHMDB-Sentences | 74.4  | 73.4 | 46.5  |)
 
 
 ### RefCOCO/+/g
@@ -137,10 +147,13 @@ We also support evaluate on RefCOCO/+/g validation set by using the pretrained w
 
 
 RIS (referring image segmentation):
+<p align="center"><img src="docs/refcoco.PNG" width="250"/></p>
 
-| RefCOCO | RefCOCO+ | RefCOCOg |
-|:-------:|:--------:|:--------:| 
-|  76.7   |   66.5   |   70.3   |
+[//]: # (| RefCOCO | RefCOCO+ | RefCOCOg |)
+
+[//]: # (|:-------:|:--------:|:--------:| )
+
+[//]: # (|  76.7   |   66.5   |   70.3   |)
 
 
 
