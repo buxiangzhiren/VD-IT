@@ -13,7 +13,7 @@ Exploring Pre-trained Text-to-Video Diffusion Models for Referring Video Object 
 
 <p align="center"><img src="docs/VD-IT.PNG" width="800"/></p>
 
-> [**Exploring Pre-trained Text-to-Video Diffusion Models for Referring Video Object Segmentation**]()
+> [**Exploring Pre-trained Text-to-Video Diffusion Models for Referring Video Object Segmentation**](https://arxiv.org/abs/2403.12042)
 >
 > Zixin Zhu, Xuelu Feng, Dongdong CHen, Junsong Yuan, Chunming Qiao, Gang Hua
 
@@ -165,6 +165,13 @@ This repo is based on [ReferFormer](https://github.com/wjn922/ReferFormer) and [
 ## Citation
 
 ```
-
+@misc{zhu2024exploring,
+      title={Exploring Pre-trained Text-to-Video Diffusion Models for Referring Video Object Segmentation}, 
+      author={Zixin Zhu and Xuelu Feng and Dongdong Chen and Junsong Yuan and Chunming Qiao and Gang Hua},
+      year={2024},
+      eprint={2403.12042},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
 ```
 
