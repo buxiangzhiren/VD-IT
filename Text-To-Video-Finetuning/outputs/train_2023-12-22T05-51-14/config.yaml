@@ -1,0 +1,82 @@
+pretrained_model_path: ./models/model_scope_diffusers/
+output_dir: ./outputs
+train_data:
+  width: 256
+  height: 256
+  use_bucketing: true
+  sample_start_idx: 1
+  fps: 24
+  frame_step: 1
+  n_sample_frames: 8
+  single_video_path: /data2/zixin/TokenFlow-master/data/woman-running.mp4
+  single_video_prompt: A woman is running
+  fallback_prompt: ''
+  path: /hddc/zxhao/Text-To-Video-Finetuning/data_video/
+  json_path: path/to/train/json/
+  image_dir: path/to/image/directory
+  single_img_prompt: ''
+validation_data:
+  prompt: A woman is running
+  sample_preview: true
+  num_frames: 16
+  width: 384
+  height: 384
+  num_inference_steps: 25
+  guidance_scale: 9
+extra_train_data: []
+dataset_types:
+- folder
+shuffle: true
+validation_steps: 100
+trainable_modules:
+- all
+extra_unet_params: null
+extra_text_encoder_params: null
+train_batch_size: 2
+max_train_steps: 10000
+learning_rate: 5.0e-06
+scale_lr: false
+lr_scheduler: constant
+lr_warmup_steps: 0
+adam_beta1: 0.9
+adam_beta2: 0.999
+adam_weight_decay: 0
+adam_epsilon: 1.0e-08
+max_grad_norm: 1.0
+gradient_accumulation_steps: 1
+gradient_checkpointing: false
+text_encoder_gradient_checkpointing: false
+checkpointing_steps: 2500
+resume_from_checkpoint: null
+resume_step: null
+mixed_precision: fp16
+use_8bit_adam: false
+enable_xformers_memory_efficient_attention: false
+enable_torch_2_attn: false
+seed: 64
+extend_dataset: false
+cached_latent_dir: null
+lora_version: cloneofsimo
+save_lora_for_webui: false
+only_lora_for_webui: false
+lora_bias: none
+use_unet_lora: false
+use_text_lora: false
+unet_lora_modules:
+- UNet3DConditionModel
+text_encoder_lora_modules:
+- CLIPEncoderLayer
+save_pretrained_model: true
+lora_rank: 16
+lora_path: ''
+lora_unet_dropout: 0.1
+lora_text_dropout: 0.1
+logger_type: tensorboard
+cache_latents: false
+kwargs: {}
+offset_noise_strength: 0.1
+rescale_schedule: false
+train_text_encoder: false
+trainable_text_modules:
+- all
+use_offset_noise: false

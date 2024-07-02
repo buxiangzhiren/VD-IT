@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "/hddc/zxhao/Text-To-Video-Finetuning/train.py",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            // "justMyCode": false,
+            "cwd": "/hddc/zxhao/Text-To-Video-Finetuning/",
+            
+        }
+    ]
+}
