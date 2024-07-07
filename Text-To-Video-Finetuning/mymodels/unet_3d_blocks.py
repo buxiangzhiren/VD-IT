@@ -15,8 +15,6 @@
 import torch
 import torch.utils.checkpoint as checkpoint
 from torch import nn
-# import sys
-# sys.path.append('/hddc/zxhao/ReferFormer/Text-To-Video-Finetuning')
 from diffusers.models.resnet import Downsample2D, ResnetBlock2D, TemporalConvLayer, Upsample2D
 from diffusers.models.transformer_2d import Transformer2DModel
 from diffusers.models.transformer_temporal import TransformerTemporalModel
