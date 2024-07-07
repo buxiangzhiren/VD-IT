@@ -159,7 +159,7 @@ class FeatureExtractor(torch.nn.Module):
 
     def __init__(
         self,
-        pretrained_model_path='/hddc/zxhao/VDIT/Text-To-Video-Finetuning/mymodels/model_scope_diffusers', num_channels=[128, 256, 512, 1024]
+        pretrained_model_path='./Text-To-Video-Finetuning/mymodels/model_scope_diffusers', num_channels=[128, 256, 512, 1024]
     ):
         super().__init__()
         self.noise_scheduler = DDPMScheduler.from_config(pretrained_model_path, subfolder="scheduler")

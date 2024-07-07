@@ -32,7 +32,7 @@ class JHMDBSentencesDataset(Dataset):
     def __init__(self, image_folder: Path, ann_file: Path, transforms, return_masks: bool, 
                  num_frames: int, max_skip: int, subset):
         super(JHMDBSentencesDataset, self).__init__()
-        self.dataset_path = '/hddc/zxhao/ReferFormer/data'
+        self.dataset_path = '/hddc/zxhao/SgMg/data'
         self.ann_file = ann_file
         self.samples_metadata = self.get_samples_metadata()
 

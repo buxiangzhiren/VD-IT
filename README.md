@@ -51,11 +51,11 @@ You can download the [pretrained model](https://drive.google.com/file/d/1bRqpFmt
 The training and evaluation scripts are included in the `scripts` folder. Please run the following command:
 
 ```
-sh dist_train_ytvos_vdit.sh
+sh ./scripts/dist_train_ytvos_vdit.sh
 ```
 
 ```
-sh dist_test_ytvos_vdit.sh
+sh ./scripts/dist_test_ytvos_vdit.sh
 ```
 
 
