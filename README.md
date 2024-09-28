@@ -46,8 +46,7 @@ pip install -r requirements.txt
 ```
 
 ### Training and Evaluation
-
-You can download the [pretrained model](https://drive.google.com/file/d/1bRqpFmtGaHiakBnINnx67ZaBnQNy0J5C/view?usp=drive_link) or train VD-IT by yourself.
+You can download the pretrained model from [Google Drive](https://drive.google.com/file/d/1bRqpFmtGaHiakBnINnx67ZaBnQNy0J5C/view?usp=drive_link) and [Hugging Face]((https://huggingface.co/buxiangzhiren/VD-IT/)), or you can train VD-IT on your own.
 
 The training and evaluation scripts are included in the `scripts` folder. Please run the following command:
 
